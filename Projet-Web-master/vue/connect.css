@@ -1,0 +1,72 @@
+/* -----------------------Create by Hoareau Brenda Marinasy----------------------- */
+
+body{
+  background-color:#BDBDBD;
+  margin: 0;
+}
+header{
+  height: 150px!important;
+}
+form{
+  margin: auto;
+  width: 50vw;
+  height: 40vh;
+  text-align: center;
+}
+fieldset label{
+  display:inline-block;
+	width:10vw;
+  margin-top: 5vh;
+}
+fieldset{
+  margin-top: 20vh;
+  border: none;
+  background-color: white;
+}
+input{
+  margin-top: 1vh;
+  margin-right: 1vw;
+  margin-bottom: 20px;
+}
+form a{
+  text-decoration: none;
+}
+.hr{
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  font-weight: normal;
+  font-size: 20px;
+}
+.hr{
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+.hr > span {
+  display: inline-block;
+  position: relative;
+}
+.hr > span:after{
+  content: "";
+  position: absolute;
+  width: 10vw;
+  background: red;
+  top:50%;
+  height: 1px;
+  left: 100%;
+  margin-left: 15px;
+}
+.hr >span:before{
+  content: "";
+  position: absolute;
+  width: 10vw;
+  background: red;
+  top:50%;
+  height: 1px;
+  right: 100%;
+  margin-right: 15px;
+}
+footer{
+  margin-top: 10vh;
+
+}

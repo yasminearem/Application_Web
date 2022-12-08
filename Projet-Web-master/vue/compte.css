@@ -1,0 +1,33 @@
+/* -----------------------Create by Hoareau Brenda Marinasy----------------------- */
+
+body{
+  background-color: #FBF8EF;
+}
+nav{
+  background-color: #E0F8E6;
+}
+nav ul li:hover{
+background-color:#CED8F6;
+color: white;
+}
+
+article{
+
+  width: 50vw;
+  padding: 1vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+section{
+
+  text-align: center;
+  background: none;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  width: 51vw;
+  height: 50vh;
+  background-color: white;
+}
+footer{
+  margin-top: 5vh;
+}

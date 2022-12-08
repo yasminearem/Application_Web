@@ -1,0 +1,47 @@
+body{
+
+  margin: 0;
+}
+
+form{
+  margin: auto;
+  width: 50vw;
+  height: 40vh;
+  text-align: center;
+
+}
+fieldset label{
+  display:inline-block;
+	width:10vw;
+  margin-top: 5vh;
+}
+fieldset{
+  margin-top: 20vh;
+  border: none;
+  background-color: white;
+  border: 1px solid #BDBDBD;
+}
+input{
+  margin-top: 1vh;
+  margin-right: 1vw;
+  margin-bottom: 20px;
+}
+form a{
+  text-decoration: none;
+}
+#mois, #annee{
+  width: 3vw;
+}
+div{
+  padding: 10px;
+}
+span{
+  font-weight: bold;
+}
+hr{
+  color: orange;
+}
+img{
+  width: 100px;
+  height: 100px;
+}

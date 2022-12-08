@@ -1,0 +1,86 @@
+
+// ======================================================
+// Manuel pour le Modèle, les Méthodes des Classes et la DAO
+// ======================================================
+
+
+/*
+Doc pour les programmeurs
+Auteur : RC.
+*/
+
+// --------------------
+// Installation
+// --------------------
+/*
+Les fichiers php du modèle permettent de gérer la base de données et les classes d'objets.
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour installer la base suivre ces instructions :
+- lancer (sqlite3 base.db) dans data/
+- taper (.read create_base.sql)
+- quitter sqlite (.exit)
+- donner les droits d'écriture pour les autres (chmod o+w . base.db) au dossier data et au fichier base.db
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*/
+
+// --------------------
+// Classes
+// --------------------
+
+Utilisateur($nom='', $prenom='', $mail='', $mdp='')
+Produit($intitule='', $complement='', $prix=-1, $ref='', $photo='')
+Categorie($nom='')
+LignePanier($date='', $mail='', $ref='', $quantite=1, $valide=FALSE)
+AppartientA($nom='', $ref='')
+
+
+// --------------------
+// DAO
+// --------------------
+
+// Utilisateur
+
+function createUtilisateur($util)
+function getUtilisateur($mail, $mdp='')
+function getAllUtilisateurs()
+function deleteUtilisateur($mail)
+function updateUtilisateur($nom, $prenom, $mail, $mdp)
+
+// Produit
+
+function createProduit($prod)
+function getProduits()
+function getProduitsMinMax($prixMin, $prixMax)
+function getProduitsCategorie($categorie)
+function getProduitsUtilisateur($mail)
+function deleteProduit($ref)
+function updateProduit($intitule, $complement='', $prix, $ref, $photo)
+
+// Categorie
+
+function getCategorie($nom)
+function createCategorie($nom)
+function deleteCategorie($nom)
+function updateCategorie($nom)
+
+// Ligne Panier
+
+function getLignePanier($date, $mail, $ref)
+function createLignePanier($lignePanier)
+function deleteLignePanier($date, $mail, $ref)
+
+
+// Appartient à
+
+
+function createAppartientA($nom, $ref)
+
+// Noms catégories
+
+Mignons
+Jolis
+Beaux
+Craquants
+Méchants

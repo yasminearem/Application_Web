@@ -1,0 +1,110 @@
+/* -----------------------Create by Hoareau Brenda Marinasy----------------------- */
+
+/*
+	Page de style commune à la plupart des pages du site pour l'aspect général
+
+	Auteurs : BH, RC
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+#Banderole{
+	background-color: #D8D8D8;
+
+}
+header{
+	margin: 0;
+	background-color: #D8D8D8;
+	overflow: hidden;
+	height: 250px;
+
+}
+header h1{
+	font-variant:small-caps;
+	text-align:center;
+  font-weight: normal;
+}
+#logo{
+	width: 60px;
+	height: 40px;
+}
+#monCompte, #panier{
+	width: 40px;
+}
+
+nav{
+	background-color: #CED8F6;
+	height: 160px;
+}
+
+nav h2 a:first-child{
+	text-decoration: none;
+	background-color: black
+}
+nav h2{
+
+  font-weight: normal;
+}
+nav ul{
+	padding-left: 0;
+	text-align:center;
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  height: 80px;
+  width: 110px;
+  text-align: center;
+  line-height: 70px;
+
+
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li:hover{
+background-color:#EFFBEF;
+color: white;
+}
+#Barre_recherche{
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+#Barre{
+	margin-top: 20vh;
+	width: 30vw;
+
+
+}
+section{
+	background-image: url("../data/chaton-01.jpg");
+	margin: 0;
+	height: 70vh;
+
+
+}
+p{
+	margin: 0;
+}
+
+footer{
+	background-color:#585858;
+	height: 15vh;
+	text-align: center;
+}
+
+footer p {
+	padding: 15px;
+	color: lightgrey;
+}
+
+#recherche{
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}

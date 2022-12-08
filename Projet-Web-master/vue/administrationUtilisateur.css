@@ -1,0 +1,27 @@
+/* -----------------------Create by Hoareau Brenda Marinasy----------------------- */
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+td, th {
+  border: 1px solid black;
+  padding: 1vh;
+}
+section{
+  background: none;
+  margin: auto;
+  text-align: center;
+  padding-top: 2vh;
+}
+img{
+  width: 30px;
+  height: 30px;
+}
+#precedent, #suivant {
+  padding: 2vh;
+}
+#deconnect{
+  width: 40px;
+}

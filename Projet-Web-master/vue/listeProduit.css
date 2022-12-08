@@ -1,0 +1,76 @@
+/* -----------------------Create by Hoareau Brenda Marinasy----------------------- */
+
+body{
+  background-color:#F2F2F2;
+}
+
+figure img {
+  width: 200px;
+  height: 200px;
+}
+figure{
+  margin: 0;
+
+}
+
+article div{
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
+}
+figcaption{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+div p {
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+article{
+  margin: 0;
+  padding: 0;
+  width: 75vw;
+  float: right;
+  text-align: center;
+
+}
+#precedent img {
+    width: 30px;
+    height: 30px;
+
+}
+#suivant img {
+    width: 30px;
+    height: 30px;
+}
+#accueil{
+  width: 40px;
+  vertical-align: bottom;
+}
+section{
+  background: none;
+  min-height: 80vh;
+}
+aside{
+  background-color: white;
+  margin: 0;
+  margin-top: 10vh;
+  height: 30vh;
+  width: 20vw;
+  margin-left: 1vw;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1vh;
+
+}
+footer{
+
+  margin-top: 5vh;
+}
